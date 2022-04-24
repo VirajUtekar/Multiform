@@ -1,0 +1,43 @@
+{
+    "site_url":{
+       "url":"https://www.globalsqa.com/angularJs-protractor/Multiform/#/form/profile"
+    },
+
+    "common_elements":{
+        "next_section_button":"div#form-container > form > div > div > div > a.btn-block"
+    },
+
+    "profile_elements":{
+        "name_field":"div#form-container > form > div > div.ng-scope > input[name='name']",
+        "profile_tab":"div#form-container > div > div#status-buttons > a[ui-sref='.profile']",
+        "email_field":"div#form-container > form > div > div.ng-scope > input[name='email']",
+        "server_response":".ng-binding"
+    },
+
+    "profile_value":{
+        "name":"test",
+        "email":"test@gmail.com"
+    },
+
+    "interest_elements":{
+       "profile_tab":"div#form-container > div > div#status-buttons > a[ui-sref='.interests']",
+       "i_like_options":"div#form-container > form > div > div:nth-Child(2) > div",
+       "i_like_Xbox_checbox":"div#form-container > form > div > div:nth-Child(2) > div:nth-Child(1) > label > input",
+       "i_like_ps4_checkbox":"div#form-container > form > div > div:nth-Child(2) > div:nth-Child(2) > label > input"
+    },
+
+    "interest_value":{
+       "XBox_label":"XBOX",
+       "PS4_Label":"PS4"
+    },
+
+    "payment_elements":{
+        "payment_tab":"div#form-container > div > div#status-buttons > a[ui-sref='.payment']",
+        "Thankyou_for_payment_heading":"div#form-container > form > div > div > h3",
+        "Submit_button":"div#form-container > form > div > div >button"
+    },
+
+    "payment_value":{
+
+    }
+}
